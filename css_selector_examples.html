@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CSS Selector Examples</title>
+<style>
+/* Name Selector */
+p { color: blue; }
+
+/* ID Selector */
+#uniqueElement { font-weight: bold; }
+
+/* Class Selector */
+.highlight { background-color: yellow; }
+
+/* Universal Selector */
+* { font-family: Arial, sans-serif; }
+
+/* Descendant Selector */
+div p { color: green; }
+
+/* Attribute Selector */
+a[target="_blank"] { font-style: italic; }
+
+/* Child Selector */
+ul > li { list-style-type: square; }
+
+/* Odd or Even Selector */
+tr:nth-child(odd) { background-color: #f2f2f2; }
+
+/* Nth Child Selector */
+li:nth-child(2) { color: red; }
+
+/* Adjacent Sibling Selector */
+h2 + p { font-size: small; }
+</style>
+</head>
+<body>
+
+<h1>Name Selector Example</h1>
+<p>This paragraph will be blue.</p>
+
+<h1>ID Selector Example</h1>
+<p id="uniqueElement">This paragraph will be bold.</p>
+
+<h1>Class Selector Example</h1>
+<p class="highlight">This paragraph will have a yellow background.</p>
+
+<h1>Universal Selector Example</h1>
+<p>All text is styled by the universal selector.</p>
+
+<h1>Descendant Selector Example</h1>
+<div>This is a div.
+  <p>This paragraph is green because it's inside a div.</p>
+</div>
+
+<h1>Attribute Selector Example</h1>
+<a href="#" target="_blank">This link will be italic because it opens in a new tab.</a>
+
+<h1>Child Selector Example</h1>
+<ul>
+  <li>This list item will have a square bullet.</li>
+  <li>This list item will be red and have a square bullet.</li>
+</ul>
+
+<h1>Odd or Even Selector Example</h1>
+<table>
+  <tr><td>Row 1</td></tr>
+  <tr><td>Row 2</td></tr>
+  <tr><td>Row 3</td></tr>
+</table>
+
+<h1>Adjacent Sibling Selector Example</h1>
+<h2>This is an H2</h2>
+<p>This paragraph is styled to have a small font size because it immediately follows an H2.</p>
+
+</body>
+</html>

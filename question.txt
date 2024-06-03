@@ -1,0 +1,23 @@
+Web Design Research Questions
+Be prepared to answer the following questions:
+1. What is the diffrence between inline, embeded and external CSS?
+2. Explain what is the following HTML tag for:
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+3. Explain what is a CSS selector and CSS rule
+4. What HTML tags does this selector `*` selects?
+5. What diffrent CSS rules can be used to control the appearance of image background?
+6. What is the diffrence between `padding` and `margin`
+7. Explain the diffrence between a `class` and `id` attribute? When would you use one or the
+other?
+8. Research what the following selectors look like and what they select. Create working examples
+of each and be prepared to demonstrate the functionality of each selector type.
+name selector
+id selector
+class selector
+universal selector
+descendednt selector
+attribute selector
+child selector
+odd or even selector
+nth child selector
+adjacent sibling selector
